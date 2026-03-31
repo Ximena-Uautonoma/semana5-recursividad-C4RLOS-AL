@@ -5,13 +5,16 @@ Debe implementar dos funciones:
 1. Una usando iteración (for o while)
 2. Una usando recursividad
 """
-
+#  Retorna una lista con los números desde 1 hasta n usando iteración.
 def contar_ciclo(n):
-    """
-    Retorna una lista con los números desde 1 hasta n usando iteración.
-    """
-    # Escriba aquí su solución y borre la palabra pass de acontinuación
-    pass
+   numeros = []
+   contador = 1
+   while (contador <= n):
+       numeros.append(contador)
+       contador += 1
+   print (numeros) 
+
+
 
 
 def contar_recursivo(n):
