@@ -12,16 +12,17 @@ def contar_ciclo(n):
    while (contador <= n):
        numeros.append(contador)
        contador += 1
-   print (numeros) 
+   return (numeros) 
 
+#print(contar_ciclo(10))
 
 # Retorna una lista con los números desde 1 hasta n usando recursividad.
 def contar_recursivo(n):
-
- pass
-
-
-   # if n <= 0:
-    #  return []
-    #else: return [n] + contar_recursivo(n-1)
+ if (n == 0):
+    return []
+ else: 
+    numeros = (contar_recursivo(n-1) + [n])
+    return numeros
+ 
+  
 #print(contar_recursivo(10))
