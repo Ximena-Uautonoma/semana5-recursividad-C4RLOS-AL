@@ -7,15 +7,30 @@ Debe implementar:
 - suma_recursiva(n)
 """
 
+#    Retorna la suma de los primeros n números usando un ciclo.
 def suma_ciclo(n):
-    """
-    Retorna la suma de los primeros n números usando un ciclo.
-    """
-    pass
+    numero = 0
+    while (n > 0):
+        numero = numero + n
+        n = n-1
+    return numero
 
+#print(suma_ciclo(2))
+
+
+
+
+
+
+
+
+ # Retorna la suma de los primeros n números usando recursividad.
 
 def suma_recursiva(n):
-    """
-    Retorna la suma de los primeros n números usando recursividad.
-    """
-    pass
+    if (n == 1 or n == 0):
+        return n
+    else:
+        return (n + suma_recursiva(n-1))
+
+
+#print(suma_recursiva(2))
