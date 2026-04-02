@@ -25,6 +25,6 @@ def total_ventas_recursivo(ventas):
   else: return (ventas[-1]+ total_ventas_recursivo(ventas[:-1])) 
 
 
-print(total_ventas_recursivo(ventas))
-print(total_ventas_ciclo(ventas))
+#print(total_ventas_recursivo(ventas))
+#print(total_ventas_ciclo(ventas))
 
