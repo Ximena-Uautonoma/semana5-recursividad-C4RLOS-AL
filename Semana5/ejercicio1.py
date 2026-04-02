@@ -14,7 +14,7 @@ def contar_ciclo(n):
        contador += 1
    return (numeros) 
 
-#print(contar_ciclo(10))
+#print(contar_ciclo(5))
 
 # Retorna una lista con los números desde 1 hasta n usando recursividad.
 def contar_recursivo(n):
@@ -22,7 +22,7 @@ def contar_recursivo(n):
     return []
  else: 
     numeros = (contar_recursivo(n-1) + [n])
-    return numeros
+ return numeros
  
   
-#print(contar_recursivo(10))
+#print(contar_recursivo(5))
