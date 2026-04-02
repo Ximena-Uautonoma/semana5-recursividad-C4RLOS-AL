@@ -18,11 +18,11 @@ def contar_ciclo(n):
 
 # Retorna una lista con los números desde 1 hasta n usando recursividad.
 def contar_recursivo(n):
- if (n == 0):
-    return []
+ if (n == 1):
+    return 1
  else: 
-    numeros = (contar_recursivo(n-1) + [n])
- return numeros
+    return contar_recursivo(n-1) + [n]
+  
  
   
 #print(contar_recursivo(5))
