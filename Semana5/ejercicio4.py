@@ -21,5 +21,5 @@ def contar_pares_recursivo(n):
         return 1 + contar_pares_recursivo(n-1)
     else: return 0 + contar_pares_recursivo(n-1) 
     
-print(contar_pares_recursivo(100))
+#print(contar_pares_recursivo(100))
     
